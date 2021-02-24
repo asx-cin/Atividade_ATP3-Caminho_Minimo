@@ -26,11 +26,12 @@ O problema foi tratado como um grafo direcionado por meio de uma lista de adjac�
 O uso do algoritmo de Dijkstra foi utilizado para encontrar o caminho mínimo a partir de um nó origem, que representa a cidade de Origem para todos os demais pontos e em seguida usado uma função que a partir da lista de antecessores determina o percurso potencial da cidade Origem até a cidade Destino.
 
 # Ferramentas utilizadas
-O trabalho foi Implementado em linguagem de programação Python 3.7 e particionado em 4 arquivos:
-	Convert_csv_to_txt: para converter os dados;
-	Dijkstra: para encontrar o menor caminho;
-	Grafo: para gerar o grafo utilizado no modelo;
-	Main: arquivo principal que chama os arquivos anteriores.
+O trabalho foi implementado em linguagem de programação Python 3.7 e particionado em 5 arquivos:
+- Convert_csv_to_txt: para converter os dados;
+- Dijkstra: para encontrar o menor caminho;
+- Grafo: para gerar o grafo utilizado no modelo;
+- Main: arquivo principal que chama os arquivos anteriores.
+- Testes: usado para testar o tempo de execução para três casos distintos.
 
 **Bibliotecas utilizadas:**
 
