@@ -1,3 +1,5 @@
+**Autores:** Amanda Silva (asx@cin.ufpe.br) e Andersson Alves (aas9@cin.ufpe.br)
+
 # Atividade_ATP3-Caminho_Minimo
 
 # Base de dados: Matriz de Origem/Destino real de deslocamentos de pessoas, elaborada a partir de Big Data da telefonia móvel
