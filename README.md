@@ -32,15 +32,15 @@ O trabalho foi Implementado em linguagem de programação Python 3.7 e particion
 	Grafo: para gerar o grafo utilizado no modelo;
 	Main: arquivo principal que chama os arquivos anteriores.
 
-Bibliotecas utilizadas:
+**Bibliotecas utilizadas:**
 
-Pandas: para manipulação dos dados, pois ficam postos em tabela;
+**Pandas:** para manipulação dos dados, pois ficam postos em tabela;
 
-Numpy: para manipulação de dados;
+**Numpy:** para manipulação de dados;
 
-PySimpleGUI: para a interface gráfica [2].
+**PySimpleGUI:** para a interface gráfica [2].
 
-Obs: para utilizar a interface gráfica, é necessário utilizar: 'pip install PySimpleGUI'
+**Obs:** para utilizar a interface gráfica, é necessário utilizar: <pip install PySimpleGUI>
 
 # Resultados
 O tempo médio para 100 resoluções com somente rotas válidas foi de: 2.1973 segundos.
@@ -49,7 +49,7 @@ O tempo médio para 100 resoluções com somente rotas inválidas foi de: 2.895 
 
 O tempo médio para 100 resoluções com rotas válidas e inválidas foi de 2.4142 segundos. 
 
-*Obs.:* Os testes foram escolhendo Origens e Destinos aleatoriamente.
+**Obs.:** Os testes foram escolhendo Origens e Destinos aleatoriamente.
 
 
 # Referências
