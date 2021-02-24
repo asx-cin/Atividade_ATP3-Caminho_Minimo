@@ -4,7 +4,6 @@ import numpy as np
 import PySimpleGUI as sg
 from Dijkstra import dijkstra
 from Grafo import Grafo_Dir
-import time
 
 # Importando os dados de entrada
 df = pd.read_csv('rotas-potenciais.txt', sep=';') 
@@ -38,7 +37,6 @@ for city in saida:
 #print(len(cidades))
 
 def tracar_menor_caminho(Grafo, origem, destino):
-  inicio = time.time()
   origem, destino = origem-1, destino-1
   if not cidades[origem]:
     return ('A Origem {} não existe no roteiro!'.format(origem+1))
@@ -58,8 +56,7 @@ def tracar_menor_caminho(Grafo, origem, destino):
     rota = [cidades[i] for i in caminho]
     if distancias[destino] == float("+infinity"):
       return ('Não existe translado de {} para {}.'.format(cidades[origem], cidades[destino]))
-    return ('O melhor trajeto com Origem em {} e Destino em {} é:\n{} \nDistância total: {} Km \nTempo de atendimento: {}'.format(origem+1, destino+1, rota, distancias[destino], time.time()-inicio))
-
+    return ('O melhor trajeto com Origem em {} e Destino em {} é:\n{} \nDistância total: {} Km.'.format(origem+1, destino+1, rota, distancias[destino]))
 
 def main():
   #Gerando Grafo
